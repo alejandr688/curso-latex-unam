@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LaTeX para Ciencias | Curso en línea</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <button class="theme-toggle" id="themeToggle" aria-label="Cambiar a modo noche">Modo noche</button>
+  <header class="hero" id="inicio">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <div class="pill">Curso en vivo · Cupo limitado</div>
+        <h1>LaTeX para Ciencias: tareas y reportes profesionales desde cero</h1>
+        <p class="lead">Curso intensivo en línea de 4 semanas para estudiantes de ciencias que quieren entregar tareas y reportes con calidad profesional.</p>
+        <div class="chip-row">
+          <span class="chip">Inicio: 8 de diciembre de 2025</span>
+          <span class="chip">Duración: 4 semanas</span>
+          <span class="chip">Días: martes, jueves y sábado</span>
+          <span class="chip">Horario: 6:00–8:00 pm</span>
+          <span class="chip">Modalidad: En línea (Zoom/Google Meet)</span>
+          <span class="chip">Costo: $399 MXN</span>
+          <span class="chip">Incluye certificado</span>
+        </div>
+        <div class="cta-row">
+          <a class="btn primary cta-inscribirme" href="https://docs.google.com/forms/d/e/1FAIpQLSfgI-dlxx2MGtuMz3yRkkJuTG6_lYZ5yR2YeR7zo1B4HSmjoQ/viewform?usp=dialog" target="_blank" rel="noopener">Inscribirme</a>
+          <a class="btn ghost" href="#temario-completo">Ver temario completo</a>
+        </div>
+        <p class="hero-note">Incluye certificado, grabaciones privadas, plantillas y acompañamiento en proyecto final.</p>
+      </div>
+      <div class="hero-panel">
+        <div class="card">
+          <h3>En 4 semanas lograrás</h3>
+          <ul class="list-compact">
+            <li><span>✓</span><span>Escribir matemáticas avanzadas y reportes claros.</span></li>
+            <li><span>✓</span><span>Diseñar plantillas propias para tareas y laboratorio.</span></li>
+            <li><span>✓</span><span>Dominar Overleaf y crear documentos con calidad de artículo.</span></li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Imparte</h3>
+          <p class="highlight">Alejandro Pérez Romero – Facultad de Ciencias, UNAM</p>
+          <p class="muted-light">Clases en vivo, ejemplos reales y revisiones rápidas de tu avance.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="para-quien">
+      <div class="container section-card">
+        <h2>¿Para quién es este curso?</h2>
+        <p class="section-subtitle">Pensado para estudiantes que necesitan entregar tareas, reportes y resúmenes con calidad académica sin complicarse.</p>
+        <ul class="bullet-list">
+          <li><span class="icon">•</span><span>Estudiantes de Física, Matemáticas, Actuaría, Ingeniería y áreas afines.</span></li>
+          <li><span class="icon">•</span><span>Quienes quieren dejar de sufrir con Word y empezar a usar LaTeX.</span></li>
+          <li><span class="icon">•</span><span>Personas que necesitan hacer tareas, reportes de laboratorio y resúmenes con buena presentación.</span></li>
+          <li><span class="icon">•</span><span>Estudiantes que quieren preparar documentos con calidad de artículo científico.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="beneficios">
+      <div class="container section-card">
+        <h2>¿Qué vas a lograr con este curso?</h2>
+        <div class="grid three">
+          <div class="benefit-card">
+            <div class="icon-bubble">∑</div>
+            <h4>Matemáticas avanzadas</h4>
+            <p>Escribir integrales, sumatorias, matrices y demostraciones con notación impecable.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="icon-bubble">✓</div>
+            <h4>Tareas listas para entregar</h4>
+            <p>Crear tareas limpias, ordenadas y fáciles de leer, listas para tus materias.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="icon-bubble">⚡</div>
+            <h4>Reportes sólidos</h4>
+            <p>Tablas, figuras y ecuaciones bien referenciadas para reportes de laboratorio.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="icon-bubble">☁</div>
+            <h4>Overleaf sin miedo</h4>
+            <p>Usar Overleaf con soltura para tareas, reportes y proyectos colaborativos.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="icon-bubble">🗂</div>
+            <h4>Plantillas reutilizables</h4>
+            <p>Diseñar plantillas de tareas, reportes y resúmenes que puedas adaptar en minutos.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="icon-bubble">★</div>
+            <h4>Presentación profesional</h4>
+            <p>Entregar documentos con apariencia académica y cuidado editorial.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="informacion">
+      <div class="container section-card">
+        <h2>Información general del curso</h2>
+        <div class="info-grid">
+          <div class="info-item"><strong>Inicio</strong><p>8 de diciembre de 2025</p></div>
+          <div class="info-item"><strong>Duración</strong><p>4 semanas</p></div>
+          <div class="info-item"><strong>Días</strong><p>martes, jueves y sábado</p></div>
+          <div class="info-item"><strong>Horario</strong><p>6:00–8:00 pm (hora de CDMX)</p></div>
+          <div class="info-item"><strong>Modalidad</strong><p>En línea (clases en vivo por Zoom o Google Meet)</p></div>
+          <div class="info-item"><strong>Costo</strong><p>$399 MXN</p></div>
+          <div class="info-item"><strong>Incluye</strong><p>Certificado al concluir, plantillas descargables y proyecto final guiado.</p></div>
+          <div class="info-item"><strong>Requisitos</strong><p>Computadora con internet. No se requiere experiencia previa en LaTeX.</p></div>
+          <div class="info-item"><strong>Grabaciones</strong><p>Las sesiones se grabarán y las grabaciones se compartirán únicamente con los alumnos que se inscriban y paguen el curso. No serán públicas.</p></div>
+        </div>
+        <div class="metodos-pago">
+          <span class="tag">Métodos de pago</span>
+          <p class="mini-caption">Transferencia bancaria · Depósito · Mercado Pago.<br>Los detalles de pago se enviarán por WhatsApp o correo después de que llenes el formulario de Google Forms.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="temario-general">
+      <div class="container section-card">
+        <h2>Temario general</h2>
+        <div class="grid two">
+          <div class="week-card">
+            <h4>Semana 1 – Fundamentos y primera tarea</h4>
+            <ul>
+              <li>Primer documento en LaTeX</li>
+              <li>Estructura básica y formato de texto</li>
+              <li>Plantilla de tarea universitaria</li>
+            </ul>
+          </div>
+          <div class="week-card">
+            <h4>Semana 2 – Matemáticas en serio</h4>
+            <ul>
+              <li>Modo matemático</li>
+              <li>Ecuaciones alineadas, matrices, demostraciones</li>
+              <li>Entornos de teoremas y definiciones</li>
+            </ul>
+          </div>
+          <div class="week-card">
+            <h4>Semana 3 – Figuras, tablas y reportes</h4>
+            <ul>
+              <li>Insertar imágenes y gráficas</li>
+              <li>Tablas de datos experimentales</li>
+              <li>Plantilla completa de reporte de laboratorio</li>
+            </ul>
+          </div>
+          <div class="week-card">
+            <h4>Semana 4 – Automatización, trucos y proyecto final</h4>
+            <ul>
+              <li>Bibliografía básica</li>
+              <li>Comandos personalizados y plantillas extra</li>
+              <li>Proyecto final (tarea, reporte o mini-artículo)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="temario-cta">
+          <a class="btn ghost" href="#temario-completo">Ver temario completo</a>
+          <a class="btn primary" href="Archivos/temario.pdf" target="_blank" rel="noopener">Descargar temario en PDF</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="temario-completo">
+      <div class="container section-card">
+        <h2>Temario completo</h2>
+        <details class="accordion" open>
+          <summary>Semana 1 – Fundamentos y primera tarea</summary>
+          <div class="accordion-content">
+            <div>
+              <div class="session-title">Sesión 1 – ¿Qué es LaTeX y por qué todos lo recomiendan en ciencias?</div>
+              <ul class="session-list">
+                <li>Qué es LaTeX y diferencias con Word.</li>
+                <li>Ejemplos reales: apuntes, artículos, notas de curso.</li>
+                <li>Overleaf / instalación local.</li>
+                <li>Estructura básica del documento: \documentclass, preámbulo, \begin{document}.</li>
+                <li>Primer documento con título, autor, fecha.</li>
+              </ul>
+            </div>
+            <div>
+              <div class="session-title">Sesión 2 – Estructura y formato básico de texto</div>
+              <ul class="session-list">
+                <li>Secciones: \section, \subsection, etc.</li>
+                <li>Párrafos, saltos de línea, comentarios %.</li>
+                <li>Negritas, cursivas, subrayado, tamaños de letra.</li>
+                <li>Listas con viñetas y numeradas.</li>
+                <li>Paquetes básicos (geometry, babel, amsmath, etc.).</li>
+                <li>Mini-ejercicio: una “mini guía de estudio” con secciones y listas.</li>
+              </ul>
+            </div>
+            <div>
+              <div class="session-title">Sesión 3 – Plantilla de tarea universitaria</div>
+              <ul class="session-list">
+                <li>Encabezado tipo tarea: nombre, grupo, profesor, materia, fecha.</li>
+                <li>Cómo escribir enunciados de problemas y respuestas.</li>
+                <li>Numeración de ejercicios.</li>
+                <li>Entrega: plantilla “Tarea 1” lista para copiar y reutilizar.</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+
+        <details class="accordion">
+          <summary>Semana 2 – Matemáticas en serio (para las tareas)</summary>
+          <div class="accordion-content">
+            <div>
+              <div class="session-title">Sesión 4 – Introducción al modo matemático</div>
+              <ul class="session-list">
+                <li>Modo inline $ ... $ vs ecuación en display \[ ... \].</li>
+                <li>Fracciones, super/subíndices, raíces, paréntesis “grandes”.</li>
+                <li>Letras griegas, símbolos comunes (≥, ≤, ≠, ∈, ∀, ∃...).</li>
+                <li>Ejercicio: pasar una página de una tarea de cálculo/álgebra a LaTeX.</li>
+              </ul>
+            </div>
+            <div>
+              <div class="session-title">Sesión 5 – Ecuaciones alineadas y notación más avanzada</div>
+              <ul class="session-list">
+                <li>Entornos equation y align.</li>
+                <li>Sistemas de ecuaciones, matrices y vectores.</li>
+                <li>Derivadas, integrales, sumatorias, productos.</li>
+                <li>Referencias a ecuaciones con \label y \ref.</li>
+                <li>Ejercicio: desarrollo paso a paso de una demostración cortita o ejercicio largo.</li>
+              </ul>
+            </div>
+            <div>
+              <div class="session-title">Sesión 6 – Teoremas, definiciones y demostraciones “bonitas”</div>
+              <ul class="session-list">
+                <li>Paquetes amsmath, amssymb, amsthm.</li>
+                <li>Entornos: definition, theorem, lemma, proof.</li>
+                <li>Cómo escribir demostraciones con el cuadrito final.</li>
+                <li>Mini-apunte: “Notas de clase” con definición + teorema + demostración.</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+
+        <details class="accordion">
+          <summary>Semana 3 – Figuras, tablas y reportes de laboratorio</summary>
+          <div class="accordion-content">
+            <div>
+              <div class="session-title">Sesión 7 – Imágenes, gráficas y figuras</div>
+              <ul class="session-list">
+                <li>Paquete graphicx.</li>
+                <li>\includegraphics, escalado y posición.</li>
+                <li>Entorno figure: \caption, \label, referencias.</li>
+                <li>Insertar una gráfica hecha en Python/Excel (formato PNG/PDF).</li>
+                <li>Ejercicio: reporte corto con al menos una figura.</li>
+              </ul>
+            </div>
+            <div>
+              <div class="session-title">Sesión 8 – Tablas de datos experimentales</div>
+              <ul class="session-list">
+                <li>Entorno tabular: columnas, alineación, líneas básicas.</li>
+                <li>Buenas prácticas con booktabs (tablas más limpias).</li>
+                <li>Tablas con mediciones, unidades e incertidumbres.</li>
+                <li>Entorno table con título y etiqueta.</li>
+                <li>Ejercicio: tabla de resultados de un experimento sencillo.</li>
+              </ul>
+            </div>
+            <div>
+              <div class="session-title">Sesión 9 – Plantilla completa de reporte de laboratorio</div>
+              <ul class="session-list">
+                <li>Estructura típica de reporte: portada simple, objetivos, marco teórico muy breve, procedimiento, resultados, conclusiones.</li>
+                <li>Dónde van fórmulas, tablas y figuras.</li>
+                <li>Entrega: plantilla de “Reporte de laboratorio” lista para usar.</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+
+        <details class="accordion">
+          <summary>Semana 4 – Automatización, trucos y proyecto final</summary>
+          <div class="accordion-content">
+            <div>
+              <div class="session-title">Sesión 10 – Citas simples y bibliografía básica</div>
+              <ul class="session-list">
+                <li>Idea de bibliografía sin complicarse: thebibliography y/o BibTeX básico.</li>
+                <li>Cómo citar libros y páginas web que uses en tu reporte.</li>
+                <li>Ejercicio: reporte corto con 2–3 referencias.</li>
+              </ul>
+            </div>
+            <div>
+              <div class="session-title">Sesión 11 – Trucos útiles y plantillas extra</div>
+              <ul class="session-list">
+                <li>Atajos y comandos personalizados con \newcommand.</li>
+                <li>Cómo copiar y adaptar plantillas sin romper el documento.</li>
+                <li>Ejemplos extra:
+                  <ul>
+                    <li>Plantilla de tarea “avanzada” (con secciones de teoría + problemas).</li>
+                    <li>Formato tipo artículo corto (2–3 páginas) para resumen de tema.</li>
+                    <li>Opcional: portada sencilla para entregar trabajos “formales”.</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <div class="session-title">Sesión 12 – Proyecto final y revisión</div>
+              <p>Cada alumno entrega algo de esto (a elegir):</p>
+              <ul class="session-list">
+                <li>Una tarea completa con varios problemas bien escritos.</li>
+                <li>Un reporte de laboratorio real (alguna práctica que ya hayan hecho).</li>
+                <li>Un resumen tipo artículo corto de algún tema de su materia.</li>
+              </ul>
+              <p>En clase:</p>
+              <ul class="session-list">
+                <li>Revisión rápida de algunos proyectos.</li>
+                <li>Resolución de dudas.</li>
+                <li>Tips para seguir mejorando LaTeX y dónde conseguir más plantillas.</li>
+              </ul>
+            </div>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section id="metodologia">
+      <div class="container section-card">
+        <h2>¿Cómo se imparte el curso?</h2>
+        <div class="grid two">
+          <div class="info-card">
+            <h4>Metodología</h4>
+            <ul class="bullet-list">
+              <li><span class="icon">•</span><span>Clases en línea en vivo por Zoom o Google Meet.</span></li>
+              <li><span class="icon">•</span><span>Enfoque 100% práctico con ejemplos de tareas y reportes reales.</span></li>
+              <li><span class="icon">•</span><span>Ejercicios en cada sesión.</span></li>
+              <li><span class="icon">•</span><span>Proyecto final guiado.</span></li>
+              <li><span class="icon">•</span><span>Se graban las clases y las grabaciones se comparten solo con los alumnos inscritos, mediante un enlace privado.</span></li>
+            </ul>
+          </div>
+          <div class="info-card">
+            <h4>Plantillas incluidas</h4>
+            <ul class="bullet-list">
+              <li><span class="icon">•</span><span>Plantilla de tarea universitaria.</span></li>
+              <li><span class="icon">•</span><span>Plantilla de reporte de laboratorio.</span></li>
+              <li><span class="icon">•</span><span>Plantilla de notas de clase.</span></li>
+              <li><span class="icon">•</span><span>Plantilla de artículo corto (2–3 páginas).</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid two extra-gap">
+          <div class="placeholder-video">Próximamente: clase de muestra en video</div>
+          <div class="info-card">
+            <h4>Proyecto final</h4>
+            <p>Desarrollarás un proyecto final guiado (tarea completa, reporte de laboratorio o mini-artículo). Lo revisaremos juntos para que quede con calidad profesional.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="instructor">
+      <div class="container section-card">
+        <h2>Sobre el instructor</h2>
+        <div class="instructor">
+          <img src="Fotos/fotomia2.jpg" alt="Foto del instructor Alejandro Pérez Romero">
+          <div>
+            <p class="highlight">Imparte: Alejandro Pérez Romero – Facultad de Ciencias, UNAM</p>
+            <p>Alejandro Pérez Romero es estudiante de la Facultad de Ciencias (UNAM). Le apasiona LaTeX, la física y la comunicación clara de las ideas matemáticas. Ha diseñado este curso pensando en las necesidades reales de los estudiantes que entregan tareas, reportes y proyectos en ciencias.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="container section-card">
+        <h2>Preguntas frecuentes</h2>
+        <div class="faq grid two">
+          <details>
+            <summary>¿Necesito saber LaTeX antes?</summary>
+            <div class="accordion-content">No, empezamos desde cero.</div>
+          </details>
+          <details>
+            <summary>¿Qué pasa si falto a una clase?</summary>
+            <div class="accordion-content">Las sesiones se graban y tendrás acceso a la grabación si eres alumno inscrito.</div>
+          </details>
+          <details>
+            <summary>¿Necesito instalar algo en mi computadora?</summary>
+            <div class="accordion-content">No es obligatorio, podemos trabajar en Overleaf (editor online de LaTeX).</div>
+          </details>
+          <details>
+            <summary>¿Recibo algún tipo de constancia?</summary>
+            <div class="accordion-content">Sí, se entrega un certificado al concluir el curso.</div>
+          </details>
+          <details>
+            <summary>¿Cómo pago el curso?</summary>
+            <div class="accordion-content">Podrás pagar por transferencia, depósito o Mercado Pago. Los datos de pago se te enviarán por WhatsApp o correo después de llenar el formulario.</div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonios">
+      <div class="container section-card">
+        <h2>Testimonios</h2>
+        
+        <div class="grid three">
+          <div class="testimonial-card">
+            <div class="quote">El curso me ayudó a que mis tareas se vieran muchísimo más profesionales.</div>
+            <span class="mini-caption">Estudiante de Física</span>
+          </div>
+          <div class="testimonial-card">
+            <div class="quote">Por fin entiendo cómo funcionan las ecuaciones y las tablas en LaTeX.</div>
+            <span class="mini-caption">Estudiante de Matemáticas</span>
+          </div>
+          <div class="testimonial-card">
+            <div class="quote">Muy práctico y centrado en lo que realmente usamos en la facultad.</div>
+            <span class="mini-caption">Estudiante de Ingeniería</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="inscribete">
+      <div class="container cta-final">
+        <h2>Inscríbete al curso</h2>
+        <p>Si te interesa apartar tu lugar, completa el formulario de inscripción. Te contactaremos con los detalles de pago y acceso.</p>
+        <a class="btn primary cta-inscribirme" href="https://docs.google.com/forms/d/e/1FAIpQLSfgI-dlxx2MGtuMz3yRkkJuTG6_lYZ5yR2YeR7zo1B4HSmjoQ/viewform?usp=dialog" target="_blank" rel="noopener">Ir al formulario de inscripción</a>
+        <div class="note">Después de enviar el formulario, te escribiré por WhatsApp o correo con los datos de pago y detalles del curso.</div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSfgI-dlxx2MGtuMz3yRkkJuTG6_lYZ5yR2YeR7zo1B4HSmjoQ/viewform?usp=dialog";
+    const bodyEl = document.body;
+    const themeToggle = document.getElementById("themeToggle");
+
+    document.querySelectorAll(".cta-inscribirme").forEach((btn) => {
+      btn.addEventListener("click", (event) => {
+        event.preventDefault();
+        window.open(formUrl, "_blank", "noopener");
+      });
+    });
+
+    const applyStoredTheme = () => {
+      const stored = localStorage.getItem("latex_theme");
+      if (stored === "dark") {
+        bodyEl.classList.add("dark");
+      }
+      updateThemeLabel();
+    };
+
+    const updateThemeLabel = () => {
+      const isDark = bodyEl.classList.contains("dark");
+      themeToggle.textContent = isDark ? "Modo día" : "Modo noche";
+      themeToggle.setAttribute("aria-label", isDark ? "Cambiar a modo día" : "Cambiar a modo noche");
+    };
+
+    themeToggle.addEventListener("click", () => {
+      bodyEl.classList.toggle("dark");
+      const isDark = bodyEl.classList.contains("dark");
+      localStorage.setItem("latex_theme", isDark ? "dark" : "light");
+      updateThemeLabel();
+    });
+
+    applyStoredTheme();
+  </script>
+</body>
+</html>
