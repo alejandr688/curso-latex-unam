@@ -384,6 +384,19 @@ body.dark .section-card {
   margin-top: 6px;
 }
 
+body.dark .info-item {
+  background: #1a2940;
+  border-color: #25344c;
+}
+
+body.dark .info-item strong {
+  color: var(--gold-strong);
+}
+
+body.dark .info-item p {
+  color: var(--muted);
+}
+
 .tag {
   display: inline-flex;
   align-items: center;
