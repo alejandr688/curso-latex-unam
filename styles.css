@@ -309,6 +309,48 @@ main section {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.example-card {
+  background: var(--card);
+  border: 1px solid var(--stroke);
+  border-radius: 16px;
+  padding: 12px;
+  box-shadow: 0 12px 32px rgba(12, 31, 58, 0.08);
+  display: grid;
+  gap: 12px;
+  height: 100%;
+}
+
+.example-card a {
+  display: block;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--stroke);
+  box-shadow: 0 10px 24px rgba(12, 31, 58, 0.12);
+  background: var(--blue-soft);
+}
+
+.example-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 240px;
+  object-fit: contain;
+  background: #ffffff;
+}
+
+.example-card figcaption {
+  color: var(--blue-900);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
 .benefit-card,
 .info-card,
 .week-card,
